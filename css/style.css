@@ -215,6 +215,7 @@ body {
 .header__item:focus-within .header__sub-list {
   width: 140px;
   height: 299px;
+  overflow: auto;
 }
 
 .header__item button {
@@ -269,7 +270,7 @@ body {
   z-index: 2;
   width: 0;
   height: 0;
-  overflow: auto;
+  overflow: hidden;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -277,7 +278,7 @@ body {
   border-radius: 5px;
   /* «цвет ползунка» «цвет полосы скроллбара» */
   scrollbar-color: #ffffff #111428;
-  /* толщина  auto | thin | none;  */
+  /* толщина  auto / thin / none;  */
   scrollbar-width: thin;
   /* полоса прокрутки (скроллбар) */
   /* ползунок скроллбара */
