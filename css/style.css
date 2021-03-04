@@ -275,6 +275,10 @@ body {
   line-height: 19px;
   color: #ffffff;
   border-radius: 5px;
+  /* «цвет ползунка» «цвет полосы скроллбара» */
+  scrollbar-color: #ffffff #111428;
+  /* толщина  auto | thin | none;  */
+  scrollbar-width: thin;
   /* полоса прокрутки (скроллбар) */
   /* ползунок скроллбара */
   /* Стрелки */
